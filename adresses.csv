@@ -1,0 +1,6 @@
+id;pupil_id;city;street;house;room;status
+1;1;Moscow;st.Lugovaya;45;51;const propiska
+3;2;Irkutsk;st.Mosina;100;10;vremennaya propiska
+4;2;Moscow;st.Tucheva;124;54;const propiska
+5;3;Moscow;st.Polevaya;18;8;const propiska
+6;4;Moscow;st.Chapaeva;51;16;const propiska
