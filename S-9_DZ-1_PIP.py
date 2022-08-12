@@ -68,23 +68,23 @@ def logik():
 def click(button, num):
     global numButton
     if num not in numButton:
-        global XO
-        if XO == 1:
+        global Oksana
+        if Oksana == 1:
             button.config(text='O')
             button.config(bg='blue')
-            field[num] = XO
-            XO = 2
+            field[num] = Oksana
+            Oksana = 2
         else:
             button.config(text='X')
             button.config(bg='red')
-            field[num] = XO
-            XO = 1
+            field[num] = Oksana
+            Oksana = 1
         numButton.append(num)
         logik()
 
 
 field = [0, 0, 0, 0, 0, 0, 0, 0, 0]  # список значений 1 или 2
-XO = 1  # крестик - 1, нолик - 2
+Oksana = 1  # крестик - 1, нолик - 2
 numButton = []  # список нажатых кнопок
 
 
